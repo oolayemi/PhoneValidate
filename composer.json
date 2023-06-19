@@ -1,0 +1,23 @@
+{
+    "name": "oolayemi/validate-phone",
+    "description": "This package is used to validate different phone numbers",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Oolayemi\\ValidatePhone\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "oolayemi",
+            "email": "53910703+oolayemi@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/validation": "^8.0"
+    }
+}
